@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #697694;
+}
+
+.hero-section {
+  padding: 0 60px;
+  height: 800px;
+  background-image: url("./img/brooke-unsplash.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  /* background-position: center;  */
+  background-position: 50% 50%;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container {
+  margin: auto;
+  max-width: 1160px;
+}
+
+.navbar img {
+  margin-top: 42px;
+  max-width: 100%;
+}
+
+.nav-menu {
+  display: inline-block;
+  /* position: relative; */
+  margin-left: 650px;
+}
+
+.nav-menu a {
+  padding: 12px 15px;
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+
+}
+
+.nav-menu a:nth-child(5){
+  padding: 12px 20px;
+  margin-left: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+
+}
